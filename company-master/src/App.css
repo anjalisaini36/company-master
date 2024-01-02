@@ -1,0 +1,91 @@
+.your-form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.label-input-container {
+  flex-basis: calc(50% - 10px); /* 50% width with a little spacing */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.formHeading {
+  border: 2px solid;
+  background-color: #bebebe;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.viewScreen {
+  border: 2px solid;
+  background-color: #bebebe;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.tableClass {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.tableClass th, .tableClass td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.notes{
+  border: 1px solid;
+}
+
+.editData{
+  width: 50%;
+  margin: auto;
+  border: 2px solid;
+  background-color: #bebebe;
+  /* text-align: center; */
+  padding: 20px;
+  margin-top: 20px;
+}
+.editHeading{
+  /* border: 2px solid; */
+  background-color: #bebebe;
+  /* margin: 0px; */
+  /* text-align: center; */
+  /* padding: 10px; */
+  /* margin-top: 20px; */
+}
